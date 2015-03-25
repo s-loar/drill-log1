@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'static_pages#index'
 
   get 'help'    => 'static_pages#help'
+  get 'signup'  => 'users#new'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
